@@ -26,7 +26,7 @@ async function getCurrentLocation() {
       const weatherData = await getWeatherByCoords(latitude, longitude);
       displayWeather(weatherData);
     } catch (error) {
-      console.error("Could not get location:', error);
+      console.error('Could not get location:', error);
       alert('Location could not be obtained. Please make sure you allow.');
     }
   }
