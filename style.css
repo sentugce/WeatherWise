@@ -1,0 +1,36 @@
+ body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-image: url('weatherbg.png');
+    align-items: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .weather-container {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .location input[type="text"] {
+    padding: 8px;
+    margin-right: 8px;
+  }
+  
+  .location button {
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .weather-info {
+    margin-top: 20px;
+  }
+  .title-style{
+    color:white !important;
+  }
+  
